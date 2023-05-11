@@ -1,0 +1,9 @@
+.linha-animada {
+    background-color: var(--rosa-destaque);
+    padding: 2vw;
+}
+
+.linha-animada h4 {
+    color: var(--branco-padrao);
+    font-family: 'Archivo', sans-serif;
+}

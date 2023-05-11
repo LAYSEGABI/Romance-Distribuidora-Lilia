@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700&display=swap');
+@import url('styles/header.css');
+@import url('styles/linha-animada.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto-back: #1D1B1C;
+    --rosa-destaque: #E91E78;
+    --branco-padrao: #FEFEFE;
+    --cinza-padrao: #DFDFDF;
+    --rosa-back: #BA165F;
+}
+
+body {
+    width: 100vw;
+}
