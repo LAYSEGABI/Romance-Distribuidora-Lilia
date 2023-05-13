@@ -1,17 +1,37 @@
 .banner {
     display: flex;
     padding-top: 1em;
-    background: linear-gradient(285.83deg, #640F35 3.17%, #B3175C 38.07%, #E61C75 101.46%);
+    background: linear-gradient(285.83deg, #530528 3.17%, #8f0643 38.07%, #ee237b 101.46%);
     width: 100vw;
 }
 
 .banner-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 1em;
     width: 70%;
 }
 
 .banner-esquerdo h1 {
+    width: 170%;
     color: var(--branco-padrao);
     font-family: 'Archivo', sans-serif;
+}
 
+.banner-esquerdo p {
+    color: var(--cinza-padrao);
+}
+
+.banner-esquerdo a {
+    font-family: var(--fonte-padrao);
+    color: var(--branco-padrao);
+    background: var(--rosa-destaque);
+    box-shadow: none;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7em;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }

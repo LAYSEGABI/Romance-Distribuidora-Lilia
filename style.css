@@ -16,6 +16,7 @@
     --branco-padrao: #FEFEFE;
     --cinza-padrao: #DFDFDF;
     --rosa-back: #BA165F;
+    --fonte-padrao: 'Archivo', sans-serif;
 }
 
 body {
