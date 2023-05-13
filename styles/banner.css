@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    padding-top: 1em;
+    background: linear-gradient(285.83deg, #640F35 3.17%, #B3175C 38.07%, #E61C75 101.46%);
+    width: 100vw;
+}
+
+.banner-esquerdo {
+    padding: 1em;
+    width: 70%;
+}
+
+.banner-esquerdo h1 {
+    color: var(--branco-padrao);
+    font-family: 'Archivo', sans-serif;
+
+}

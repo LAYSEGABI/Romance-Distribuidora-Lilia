@@ -1,9 +1,11 @@
 .linha-animada {
     background-color: var(--rosa-destaque);
     padding: 2vw;
+    text-align: center;
 }
 
 .linha-animada h4 {
     color: var(--branco-padrao);
+    font-size: 2.8vh;
     font-family: 'Archivo', sans-serif;
 }
