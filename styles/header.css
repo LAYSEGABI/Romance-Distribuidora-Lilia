@@ -25,14 +25,14 @@
    background-position: center;
    display: inline-block;
    margin-left: 1.2em;
-
+   margin-top: 12px;
 }
 
 
 .container {
    display: flex;
    align-items: center;
-   margin-left: -5px;
+   margin-left: -8px;
 }
 
 
@@ -40,7 +40,10 @@
    display: none;
    position: absolute;
    top: 100%;
-   width: 40vW;
+   width: 50vW;
+   background-color: var(--preto-back);
+   padding-left: 0.5em;
+   padding-bottom: 0.5em;
 }
 
 .container-botao:checked~.lista-menu {
