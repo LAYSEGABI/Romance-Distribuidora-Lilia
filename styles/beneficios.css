@@ -1,0 +1,24 @@
+.beneficios {
+    display: flex;
+    background: var(--preto-back);
+    color: var(--branco-padrao);
+    font-family: var(--fonte-padrao);
+    padding: 0 1.4em;
+    padding-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.beneficios-img {
+    width: 45vw;
+}
+
+.beneficios-linha {
+    color: var(--rosa-destaque);
+    background-color: var(--rosa-destaque);
+    border: solid 1px;
+}
+
+.beneficios-textos {
+    padding-left: 0 1.2em;
+}
