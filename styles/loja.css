@@ -1,0 +1,23 @@
+.loja {
+    background: var(--preto-back);
+    color: var(--branco-padrao);
+    font-family: var(--fonte-padrao);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1.2em;
+
+}
+
+.loja h3 {
+    padding-bottom: 1em;
+}
+
+.loja-loc {
+    width: 80vw;
+    height: 200px;
+    border: 0;
+    border-radius: 10px;
+
+}

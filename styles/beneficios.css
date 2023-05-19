@@ -10,15 +10,16 @@
 }
 
 .beneficios-img {
-    width: 45vw;
+    width: 40vw;
 }
 
 .beneficios-linha {
     color: var(--rosa-destaque);
     background-color: var(--rosa-destaque);
     border: solid 1px;
+    margin: 5px 0;
 }
 
 .beneficios-textos {
-    padding-left: 0 1.2em;
+    margin-right: 2em;
 }
