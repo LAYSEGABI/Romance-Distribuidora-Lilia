@@ -1,76 +1,89 @@
- .header {
-    display: flex;
-    align-items: center;
-    background: var(--preto-back);
-    justify-content: space-between;
-    padding: 1.4vw;
- }
- 
- 
- .cabecalho {
-    background-color: var(--preto-back);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
- }
- 
+.header {
+   display: flex;
+   align-items: center;
+   background: var(--preto-back);
+   justify-content: space-between;
+   padding: 1.4vw;
+}
+
+
+.cabecalho {
+   background-color: var(--preto-back);
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
 
 .cabecalho-menu__hamburguer {
-    width: 24px;
-    height: 24px;
-    background-image: url("../img/Menu.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-    margin-left: 1.2em;
- 
- }
- 
+   width: 24px;
+   height: 24px;
+   background-image: url("../img/Menu.svg");
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   margin-left: 1.2em;
 
- .container {
-    display: flex;
-    align-items: center;
- }
- 
- 
- .lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 60vW;
- }
- 
- .container-botao:checked~.lista-menu {
-    display: block;
- }
- 
- .lista-menu-titulo,
- .lista-menu-item {
-    padding: 0.5em;
-    background-color: red;
- }
- 
- .lista-menu-titulo {
-    color: yellow;
-    font-weight: 600;
-    background-color: green;
- }
- 
- .lista-menu-link {
-    color: yellow;
-    -webkit-background-clip: text;
-    background-clip: text;
-    text-transform: uppercase;
-    text-decoration: none;
- }
+}
 
 
+.container {
+   display: flex;
+   align-items: center;
+   margin-left: -5px;
+}
+
+
+.lista-menu {
+   display: none;
+   position: absolute;
+   top: 100%;
+   width: 40vW;
+}
+
+.container-botao:checked~.lista-menu {
+   display: block;
+}
+
+.lista-menu-titulo,
+.lista-menu-item {
+   padding: 0.5em;
+   background-color: var(--preto-back);
+   list-style-type: none;
+}
+
+
+.lista-menu-item {
+   font-family: var(--fonte-padrao);
+   font-size: 0.8em;
+}
+
+
+.lista-menu-titulo {
+   color: var(--branco-padrao);
+   font-weight: 600;
+   font-family: var(--fonte-padrao);
+   background-color: var(--preto-back);
+}
+
+.lista-menu-link {
+   color: var(--branco-padrao);
+   -webkit-background-clip: text;
+   background-clip: text;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+
+.lista-menu-link-cadastre-se {
+   color: var(--rosa-destaque);
+}
 .container-botao {
-    display: none;
- }
- 
- .container-titulo {
-    display: none;
- }
+   display: none;
+}
+
+.container-titulo {
+   display: none;
+}
